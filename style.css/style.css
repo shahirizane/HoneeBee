@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1145px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 50px;
+    background: #E5E5E5;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-logo {
+    margin: 30px 0 30px 175px;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.honeybee {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    border-radius: 30px;
+    height: 865px;
+}
+
+.beelogo {}
+
+.honeybeeletters {
+    width: 100%;
+    background: url("../images/honeybigletters.png") center center/ cover;
+    /* !!! */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.options {
+    max-width: 424px;
+    /* максимально доступная ширина */
+    margin-left: 185px;
+}
+
+.ad {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: #0B0B0B;
+}
+
+.licking {
+    margin-left: 92px;
+}
+
+.finger {
+    margin-top: 93px;
+}
+
+.buynow {
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    padding: 18px 50px;
+    display: inline-block;
+    margin-top: 70px;
+    border: 2px solid #000000;
+    transition: 0.3s;
+}
+
+.mr{
+    margin-right: 28px;
+}
+
+.buynow:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+
+.shops {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 130px 0 50px 0;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    /* identical to box height, or 72px */
+    color: #000000;
+}
+
+.camomilelogo {
+    margin: 127px 0 0 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description {
+
+    width: 548px;
+    height: 130px;
+    left: 941.82px;
+    top: 1590px;
+
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    /* or 65px */
+    color: #000000;
+}
+
+.pp {
+    width: 516px;
+    height: 105px;
+    left: 941.82px;
+    top: 1750px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+    color: #000000;
+    opacity: 0.7;
+}
+
+.learnmore2 {
+    margin-top: 50px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    padding: 15px 40px;
+    background: #E68311;
+    display: inline-block;
+}
+
+
+.honeypot{
+    margin: 100px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3pot{
+    max-width: 548px;
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 45px;
+line-height: 145%;
+color: #000000;
+}
+
+.textpot{
+    max-width: 516px;
+margin-bottom: 50px;
+font-family: 'Kodchasan';
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+color: #000000;
+opacity: 0.7;
+}
+
+.linkpot{
+padding: 15px 40px;
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+width: 184px;
+height: 59px;
+background: #E58211;
+}
+
+.ourproduct{
+    width: 1146px;
+}
+
+.honeybox{
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.eucalyptus{
+    padding: 29px 0 28px 30px;
+    height: 305px;
+    width: 558px;
+    left: 227px;
+    top: 3277px;
+    border-radius: 0px;
+    display: flex;
+    background: url(../images/Rectangle\ 6.png);
+}
+
+.e11{
+    width: 302px;
+    height: 216px;
+}
+
+.basswood{
+    padding: 40px 40px 43px 30px;
+    height: 305px;
+    width: 558px;
+    left: 815px;
+    top: 3277px;
+    border-radius: 0px;
+    display: flex;
+    margin-left: 30px;
+    background: url(../images/Rectangle\ 6.png);
+}
+
+.e22{
+    width: 324px;
+    height: 226px;
+}
+
+.h3product{
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+color: #000000;
+}
+
+.seeall{
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+text-align: right;
+text-decoration-line: underline;
+color: #E58211;
+}
+
+.h4eucalyptus{
+font-family: 'Kodchasan';
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+color: #000000;
+
+}
+
+.htext{
+font-family: 'Kodchasan';
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+color: #000000;
+margin: 30px 0;
+}
+
+.buynowlink{
+
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+color: #E58211;
+border: 1.5px solid #E58211;
+
+}
+.h4basswood{
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #000000;  
+}
+
+.btext{
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;   
+    margin: 30px 0;
+}
+
+.buynowlink2{
+font-family: 'Kodchasan';
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+color: #E58211;
+border: 1.5px solid #E58211;
+}
+
+
+.honeyimg2{
+    margin-left: 61px;
+}
+
+.footer{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.divfooter{
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerp{
+margin: 0 88px 0 50px;
+width: 269px;
+height: 47px;
+font-family: 'Kodchasan';
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+color: #000000;
+opacity: 0.7;
+}
+
+.footerf{
+    margin-right: 40px;
+}
+
+
