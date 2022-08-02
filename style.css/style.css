@@ -41,18 +41,19 @@
     color: #000000;
 }
 
+.beelogo img {
+    max-width: 100%;
+}
+
 .honeybee {
     background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
     border-radius: 30px;
     height: 865px;
 }
 
-.beelogo {}
-
 .honeybeeletters {
     width: 100%;
     background: url("../images/honeybigletters.png") center center/ cover;
-    /* !!! */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -134,9 +135,7 @@ h2 {
 .description {
 
     width: 548px;
-    height: 130px;
-    left: 941.82px;
-    top: 1590px;
+    /* height: 130px; */
 
     font-family: 'Kodchasan';
     font-style: normal;
@@ -218,22 +217,17 @@ height: 59px;
 background: #E58211;
 }
 
-.ourproduct{
-    width: 1146px;
-}
+
 
 .honeybox{
     display: flex;
     margin-bottom: 130px;
+    justify-content: space-between;
 }
 
 .eucalyptus{
+    max-width: 558px;
     padding: 29px 0 28px 30px;
-    height: 305px;
-    width: 558px;
-    left: 227px;
-    top: 3277px;
-    border-radius: 0px;
     display: flex;
     background: url(../images/Rectangle\ 6.png);
 }
@@ -244,14 +238,9 @@ background: #E58211;
 }
 
 .basswood{
+    max-width: 558px;
     padding: 40px 40px 43px 30px;
-    height: 305px;
-    width: 558px;
-    left: 815px;
-    top: 3277px;
-    border-radius: 0px;
     display: flex;
-    margin-left: 30px;
     background: url(../images/Rectangle\ 6.png);
 }
 

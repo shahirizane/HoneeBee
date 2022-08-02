@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+
+  .honeypot,
+  .camomilelogo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .honeypotdiv{
+    align-items: center;
+  }
+
+   .ourproduct {
+    justify-content: center;
+  }
+
+  .h3product{
+     text-align: center;
+  }
+  
+  .seeall{
+    display: block;
+    text-align: center;
+  }
+  
+  .honeybox{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* .eucalyptus,.basswood { 
+    align-items: center;
+  } */
+}
